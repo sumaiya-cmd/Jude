@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ogg";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#one{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+
+#lftone{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/da/1f/c2/da1fc281ee831c58e2a9c9da6f47ebd7.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
+#overlay1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+#lftnav{
+    z-index: 10;
+    position: absolute;
+    width: 830px;
+    height: 50px;
+    padding:  20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#lftnav h3{
+    font-weight: 100;
+}
+
+#lftfooter{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    width: 830px;
+    height: 50px;
+    padding: 20px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#lftfooter h3{
+    font-weight: 100;
+}
+
+#lftmid1{
+    width:50%;
+    height: 56%;
+    /* background-color: red; */
+    background-image: url(https://cdn.shopify.com/s/files/1/2448/9745/products/CLED-SS19-jewelry-floral-cluster-earrings-3_600x.jpg?v=1551774453);
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#rghtone{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/3d/33/f9/3d33f9f0709cc5ef613e174576bf297b.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#txtone{
+    width: 40%;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    color: #ffff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#txtone h1{
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#rghtnav{
+    width: 37%;
+    height: 50px;
+    padding: 20px 40px;
+    position: absolute;
+    right: 0%;
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+}
+
+#rghtnav h3{
+    font-weight: 100;
+}
+
+#rghtfooter{
+    width: 37%;
+    height: 50px;
+    padding: 20px 40px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+}
+
+#rghtfooter h3{
+    font-weight: 100;
+}
+
+#two{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color:rgb(66, 65, 65);
+}
+
+#vertxt{
+    width: 20%;
+    height: 30px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    left: 1%;
+    transform-origin: 0 100%;
+    transform: rotate(90deg);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+#vertxt h3{
+    font-weight: 100;
+}
+
+#lftwoimg{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    top: 5%;
+    left: 7%;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1599083644257-e48867dae83b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2lybCUyMHNoYWRvd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#rghtwoimg{
+    width: 8%;
+    height: 35%;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    background-image: url(https://images.unsplash.com/photo-1534125804993-544a1148a064?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z2lybCUyMHNoYWRvd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+
+#overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.746);
+}
+
+#upcirctxt{
+    width: 30%;
+    text-align: center;
+    /* height: 10%; */
+    /* background-color: red; */
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: rgb(194, 81, 6);
+}
+
+#circ{
+    width: 15%;
+    height: 30%;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,0);
+    background-image: url(https://i.pinimg.com/564x/c4/11/1a/c4111a22f9fa9ff325a6fa52881042cf.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#lowcirctxt{
+    width:20%;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: #fff;
+    text-align: center;
+}
+
+#lowcirctxt h3{
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#three{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+#thrtop{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    background-color:yellow ;
+}
+
+#thrtoplft{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://i.pinimg.com/564x/18/4c/e1/184ce16a494a0e762b639385bba85b88.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#thrtoprght{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color:#5a090d ;
+}
+
+#box1{
+    width:40%;
+    height: 60%;
+    background-image: url(https://i.pinimg.com/236x/a8/80/de/a880debe3354123150fc3b929ce81e87.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#circ2{
+    width: 8%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: rgb(177, 15, 15);
+    position: absolute;
+    top: 70%;
+    left: 65%;
+}
+
+#thrtoptxt{
+    width: 20%;
+    /* height: 20%; */
+    position: absolute;
+    top: 11%;
+    left: 50%; 
+    text-align: center;
+    transform: translate(-50%,0);
+    /* background-color: yellow; */
+    color: #fff;
+}
+
+#thrdowntxt{
+    width: 20%;
+    /* height: 20%; */
+    position: absolute;
+    top: 70%;
+    left: 50%; 
+    text-align: center;
+    transform: translate(-50%,0);
+    /* background-color: yellow; */
+    color: #fff;
+}
+
+#thrlow{
+    width: 100%;
+    height: 55%;
+    position: relative;
+    background-color:rgb(245, 228, 231);
+}
+
+#box2{
+    width: 20%;
+    height: 70%;
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%,0);
+   background-image: url(https://i.pinimg.com/564x/82/7e/fe/827efeaeb19145b6c2233c699c637b07.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+#circ3{
+    width: 5%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: rgb(177, 15, 15);
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+
+#vertxt2{
+    width: 20%;
+    height: 30px;
+    /* background-color: red; */
+    position: absolute;
+    top: 9%;
+    left: 35%;
+    transform-origin: 0 100%;
+    transform: rotate(90deg);
+    position: absolute;
+    text-align: center;
+}
+
+#thrlowtxt{
+    width: 10%;
+    /* height: 30%; */
+    /* background-color: yellow; */
+    position: absolute;
+    top: 40%;
+    left: 61%;
+}
+
+#four{
+    background-color:rgb(245, 228, 231) ;
+    width: 100%;
+    height: 180vh;
+    position: relative;
+}
+
+#forrght{
+    width: 25%;
+    height: 25%;
+    /* background-color: red; */
+    background-image: url(https://i.pinimg.com/236x/c9/06/1a/c9061a6128feb2b1945237389fa3ea12.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 7%;
+    right: 0;
+}
+
+#forlft{
+    width: 18%;
+    height: 15%;
+    background-image: url(https://i.pinimg.com/236x/90/2b/9e/902b9ebf56c3f91f3425f95f1366d9c3.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 7%;
+    position: absolute;
+    left: 0;
+}
+
+#fortoptxt{
+    width: 15%;
+    position: absolute;
+    top: 4%;
+    text-align: center;
+    right: 5%;
+}
+
+#fortoptxtl{
+    top: 22%;
+    left: 15%;
+    position: absolute;
+    width: 10%;
+}
+
+#circ4{
+    width: 5%;
+    height: 6%;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 18%;
+    left: 62%;
+    /* background-color: red; */
+}
+
+#formid{
+    width:20%;
+    height: 26%;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    background-image: url(https://i.pinimg.com/236x/54/21/2f/54212f866e77900b4b65b1a62c1ee638.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: red; */
+}
+
+#forfoot{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    background-image: url(https://images.unsplash.com/photo-1545839539-88eac4c475d5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGpld2Vscnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover;
+}
+
+#fordownlft{
+    width: 15%;
+    height: 20%;
+    background-image: url(https://i.pinimg.com/564x/bf/d6/1b/bfd61b0bed0a2f1fb823a6e3d3096679.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: red; */
+    position: absolute;
+    top: 55%;
+    right: 0;
+}
+
+#fordownlft1{
+    width: 15%;
+    height: 20%;
+    /* background-color: yellow; */
+    background-image: url(https://i.pinimg.com/236x/4a/d4/14/4ad414cfe70e6f812f477a4abddff3e5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 40%;
+    right: 12%;
+}
+
+#fordownrght{
+    width: 30%;
+    height: 20%;
+    /* background-color: yellow; */
+    /* background-image: url(https://i.pinimg.com/236x/4a/d4/14/4ad414cfe70e6f812f477a4abddff3e5.jpg);
+    background-position: center;
+    background-size: cover; */
+    position: absolute;
+    top: 49%;
+}
+
+#circf1{
+    width: 50%;
+    height: 85%;
+    position: absolute;
+    left: 10%;
+    border-radius: 50%;
+    background-image: url(https://i.pinimg.com/736x/54/e3/15/54e3150ace550e99a34e8d3e59a19a57.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: red; */
+}
+
+#circf2{
+    width: 50%;
+    height: 85%;
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    border-radius: 50%;
+    background-image: url(https://i.pinimg.com/236x/fc/c9/0b/fcc90b018ac8beb39c0162e89f6ec949.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-color: green; */
+}
+
+#txt2{
+    width: 20%;
+    /* height: 5px; */
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    /* background-color: blue; */
+}
+
+
+
+#foottxt{
+    width: 30%;
+    color: #ffff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    /* background-color: red; */
+}
+
+#foottxt h1{
+    font-size: 50px;
+}
+
+
+
+
